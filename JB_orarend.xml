@@ -1,49 +1,49 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <orarend>
     <ora id="01" tipus="eloadas">
-        <targy>Valószín?ség számítás</targy>
+        <targy>ValÃ³szÃ­nÅ±sÃ©g szÃ¡mÃ­tÃ¡s</targy>
         <idopont>
-            <nap>Hétf?</nap>
+            <nap>HÃ©tfÅ‘</nap>
             <tol>8:00</tol>
             <ig>10:00</ig>
         </idopont>
          <helyszin>A1 II. em. 218</helyszin>
-        <oktato>Fegyverneki Sándor</oktato>
-        <szak>mérnökinformatikus</szak>
+        <oktato>Fegyverneki SÃ¡ndor</oktato>
+        <szak>mÃ©rnÃ¶kinformatikus</szak>
     </ora>
     <ora id="02" tipus="eloadas">
-        <targy>Webalkalmazás Fejlesztés</targy>
+        <targy>WebalkalmazÃ¡s FejlesztÃ©s</targy>
         <idopont>
-        <nap>Hétf?</nap>
+        <nap>HÃ©tfÅ‘</nap>
         <tol>10:00</tol>
         <ig>12:00</ig>
     </idopont>
     <helyszin>INF. 108</helyszin>
-    <oktato>Krizsán Zoltán</oktato>
-    <szak>mérnökinformatikus</szak>
+    <oktato>KrizsÃ¡n ZoltÃ¡n</oktato>
+    <szak>mÃ©rnÃ¶kinformatikus</szak>
     </ora>
     <ora id="03" tipus="eloadas">
         <targy>Webtech</targy>
         <idopont>
-            <nap>Hétf?</nap>
+            <nap>HÃ©tfÅ‘</nap>
             <tol>12:00</tol>
             <ig>14:00</ig>
         </idopont>
         <helyszin>A1 III.em 305</helyszin>
-        <oktato>Agárdi Anita</oktato>
-        <szak>mérnökinformatikus</szak>
+        <oktato>AgÃ¡rdi Anita</oktato>
+        <szak>mÃ©rnÃ¶kinformatikus</szak>
     </ora>
     <ora id="04" tipus="eloadas">
-        <targy>Mesterséges Intelligencia</targy>
+        <targy>MestersÃ©ges Intelligencia</targy>
         <idopont>
-            <nap>Hétf?</nap>
+            <nap>HÃ©tfÅ‘</nap>
             <tol>14:00</tol>
             <ig>17:00</ig>
         </idopont>
         <helyszin>XXXII A1 magasfsz.</helyszin>
-        <oktato>Dudás László</oktato>
-        <szak>mérnökinformatikus</szak>
+        <oktato>DudÃ¡s LÃ¡szlÃ³</oktato>
+        <szak>mÃ©rnÃ¶kinformatikus</szak>
     </ora>
 
 
