@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konferencia>
+    <cím>Megbeszélés</cím>
+    <helyszín>Miskolc Egyetem</helyszín>
+    <datum>2021.09.21</datum>
+    <előadó>
+            <név>Kiss Ernő</név>
+            <adószám>12-123456</adószám>
+            <lakcím>1189 Petőfi utca 10</lakcím>
+    </előadó>
+    <hallgatók>
+            <hallgató>
+                    <név>Juhász Balázs</név>
+                    <lakcím>3600 Ózd Nagy Ernő utca 21</lakcím>
+            </hallgató>
+    </hallgatók>
+
+</konferencia>
