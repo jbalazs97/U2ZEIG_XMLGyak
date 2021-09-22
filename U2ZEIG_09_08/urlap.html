@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Űrlap</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <form method="post" action="feldolgozo.php" id="form_login" >
+
+        Név:      <input id="nev" type="text" name="nev" value="Írd be a neved"> <br></br>
+        Pin kód:  <input id="pin" type="number" name="pin"  value="Írd be a pin kódod"> <br></br>
+        Gyümölcs:  <input id="gyum" type="text" name="gyum"> <br></br>
+        Életkor:   <input id="kor" type="number" min="0" max="120" name="kor"> <br></br>
+        Lábméret:  <input id="lab" type="text" name="lab"> <br></br>
+        Önbizalom:  <input id="bizalom" type="range" min="0" max="100" value="50" name="bizalom"> <br></br>
+
+        <input type="submit" name="kuldes"value="Küldés" />
+        <input type="button" name="elkuld"value="Elküldés ellenőrzés nélkül" />
+    </form>
+</body>
+</html>
