@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<konyvek>
+   <konyv kod="ID-01">
+        <cim>Adatbázis Rendszerek</cim>
+        <ev> 1999</ev>
+       <kiado>Valami Kft.</kiado>
+       <szerzo>Nagy Sándor</szerzo>
+
+   </konyv>
+    <konyv kod="ID-02">
+        <cim>Programozás alapjai</cim>
+        <ev> 2005</ev>
+        <kiado>Valami Kft.</kiado>
+        <szerzo>Kiss Mária</szerzo>
+
+    </konyv>
+    <konyv kod="ID-03">
+        <cim>Hálózatok</cim>
+        <ev> 2009</ev>
+        <kiado>Lexika kiadó.</kiado>
+        <szerzo>Péter Albert</szerzo>
+        <absztrakt>Valami</absztrakt>
+
+    </konyv>
+
+
+
+</konyvek>
