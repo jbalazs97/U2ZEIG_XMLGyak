@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nevjegykartyak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="JB_nevjegykartya.xsd">
+    <nevjegykartya id="01">
+        <nev>Juhász Balázs</nev>
+        <ceg>
+            <cim>
+                <iranyitoszam>3600</iranyitoszam>
+                <varos>Ózd</varos>
+                <utca>Ferenc utca</utca>
+                <hazszam>12</hazszam>
+            </cim>
+            <nev>Szaki Kft.</nev>
+            <telefonszám korzet="12">0614123621</telefonszám>
+            <weblap>google.com</weblap>
+        </ceg>
+        <beosztas>Vezető</beosztas>
+        <telefonszám  korzet="15">0615541254</telefonszám>
+        <email>info@szakikft.hu</email>
+    </nevjegykartya>
+</nevjegykartyak>
