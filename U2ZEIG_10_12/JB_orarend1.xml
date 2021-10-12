@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<orarend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="JB_orarend1.xsd">
+    <ora id="01" tipus="eloadas">
+        <targy>Valószínűség számítás</targy>
+        <idopont>
+            <nap>Hétfő</nap>
+            <tol>8:00</tol>
+            <ig>10:00</ig>
+        </idopont>
+        <helyszin>A1 II. em. 218</helyszin>
+        <oktato>Fegyverneki Sándor</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+    <ora id="02" tipus="eloadas">
+        <targy>Webalkalmazás Fejlesztés</targy>
+        <idopont>
+            <nap>Hétfő</nap>
+            <tol>10:00</tol>
+            <ig>12:00</ig>
+        </idopont>
+        <helyszin>INF. 108</helyszin>
+        <oktato>Krizsán Zoltán</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+    <ora id="03" tipus="eloadas">
+        <targy>Webtech</targy>
+        <idopont>
+            <nap>Hétfő</nap>
+            <tol>12:00</tol>
+            <ig>14:00</ig>
+        </idopont>
+        <helyszin>A1 III.em 305</helyszin>
+        <oktato>Agárdi Anita</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+    <ora id="04" tipus="eloadas">
+        <targy>Mesterséges Intelligencia</targy>
+        <idopont>
+            <nap>Hétfő</nap>
+            <tol>14:00</tol>
+            <ig>17:00</ig>
+        </idopont>
+        <helyszin>XXXII A1 magasfsz.</helyszin>
+        <oktato>Dudás László</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+    <ora id="05" tipus="gyakorlat">
+        <targy>Webalkalmazás fejelesztés</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>10:00</tol>
+            <ig>12:00</ig>
+        </idopont>
+        <helyszin>Inf. 103</helyszin>
+        <oktato>Dr. Krizsán Zoltán</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+    <ora id="06" tipus="eloadas">
+        <targy>Adatkezelés XML-ben</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>12:00</tol>
+            <ig>14:00</ig>
+        </idopont>
+        <helyszin>I. elado</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+
+    <ora id="07" tipus="gyakorlat">
+        <targy>Adatkezelés XML-ben</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>14:00</tol>
+            <ig>16:00</ig>
+        </idopont>
+        <helyszin>Inf. 105</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+    <ora id="08" tipus="gyakorlat">
+        <targy>Valószínűség számítás</targy>
+        <idopont>
+            <nap>Csütörtök</nap>
+            <tol>10:00</tol>
+            <ig>12:00</ig>
+        </idopont>
+        <helyszin>A1. 309</helyszin>
+        <oktato>Glasovits Tamás</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+
+
+
+</orarend>
