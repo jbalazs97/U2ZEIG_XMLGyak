@@ -3,7 +3,6 @@
   <xs:element name="könyvek">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="isbn" type="xs:string" />
         <xs:element name="könyv">
           <xs:complexType>
             <xs:sequence>
@@ -30,6 +29,7 @@
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
+            <xs:attribute name="isbn" type="xs:unsignedLong" use="required" />
           </xs:complexType>
         </xs:element>
       </xs:sequence>
