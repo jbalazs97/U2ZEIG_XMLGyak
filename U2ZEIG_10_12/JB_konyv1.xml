@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<könyvek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="JB_konyv1.xsd">
+    <isbn>=""</isbn>
+    <könyv>
+        <cim>Harry Potter</cim>
+        <szerzo>J. K. Rowling</szerzo>
+        <szereplo>
+            <nev>Harry Potter</nev>
+            <baratja>Hermione Granger</baratja>
+            <szuletett>1997.05.17.</szuletett>
+            <jellemzes>Magabiztos</jellemzes>
+        </szereplo>
+        <masikszereplo>
+            <nev>Hermione Granger</nev>
+            <baratja>Harry Potter</baratja>
+            <szuletett>1998.01.26.</szuletett>
+            <jellemzes>Okostojás</jellemzes>
+        </masikszereplo>
+    </könyv>
+</könyvek>
