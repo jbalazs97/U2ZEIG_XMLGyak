@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<szemelyek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="szemelyekU2ZEIG.xsd">
+    <szemely id="1">
+            <nev>Juhasz Balazs</nev>
+            <kor>24</kor>
+            <varos>Miskolc</varos>
+    </szemely>
+
+    <szemely id="2">
+    <nev>Kiss Márk</nev>
+    <kor>25</kor>
+    <varos>Ózd</varos>
+    </szemely>
+
+    <szemely id="3">
+        <nev>Nagy Jázmin</nev>
+        <kor>19</kor>
+        <varos>Budapest</varos>
+    </szemely>
+</szemelyek>
