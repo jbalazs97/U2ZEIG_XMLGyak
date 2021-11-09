@@ -15,29 +15,33 @@ import java.io.File;
 import java.io.IOException;
 
 public class xPathU2ZEIG {
-    DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newDefaultInstance();
-    DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
-    Document document =documentBuilder.parse("studentU2ZEIG.xml");
-    document.getDocumentElement().normalize();
+    public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException, XPathExpressionException {
+        DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
 
-    XPath xPath = XPathFactory.newInstance().newXPath();
-    String expression ="class";
+        Document document = documentBuilder.parse("src/main/java/xPathU2ZEIG_11_09/studentU2ZEIG.xml");
+        document.getDocumentElement().normalize();
 
-    NodeList nodeList =(NodeList) xPath.complie(expression).evalute(document, XPathConstants.NODESET);
+        XPath xPath = XPathFactory.newInstance().newXPath();
+        String expression = "class";
 
-        for( int i=0; i<nodeList.getLenght(); i++)  {
-        Node node = nodeList.item(i);
-        System.out.println("\nAktuális elem: " + node.getNodeName());
+        NodeList nodeList = (NodeList) xPath.compile(expression).evaluate(document, XPathConstants.NODESET);
 
-        if (node.getNodeType()== Node.ATTRIBUTE_NODE && node.getNodeName().equals("student")) {
-            Element element (Element) node;
+        for (int i = 0; i< nodeList.getLength(); i++){
+            Node node = nodeList.item(i);
+            System.out.println("\nAktuális elem:" + node.getNodeName());
+            if(node.getNodeType() == Node.ELEMENT_NODE && node.getNodeName().equals("student")){
+                Element element = (Element) node;
 
-            System.out.println("Hallgató ID:"+ element.getAttribute(id));
+                System.out.println("Hallgató id: "+ element.getAttribute("id"));
+                System.out.println("Keresztnev: "+element.getElementsByTagName("keresztnev").item(0).getTextContent());
+                System.out.println("Vezeteknev: "+element.getElementsByTagName("vezeteknev").item(0).getTextContent());
+                System.out.println("Becenev: "+element.getElementsByTagName("becenev").item(0).getTextContent());
+            }
         }
+        expression = "class/student";
+        nodeList = (NodeList) xPath.compile(expression).evaluate(document, XPathConstants.NODESET);
 
-            System.out.println("Keresztnév: "+ element.getElement);
 
-
+    }
 }
-
-
