@@ -7,7 +7,7 @@
                 <h1>Hallgatók adatai</h1>
 
                 <table border = "2">
-                    <tr bgcolor = "red">
+                    <tr bgcolor = "green">
                         <th>ID</th>
                         <th>Vezeteknev</th>
                         <th>Keresztnev</th>
