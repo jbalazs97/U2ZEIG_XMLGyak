@@ -7,20 +7,21 @@
                 <h1>Hallgatók adatai</h1>
 
                 <table border = "2">
+                    <tr bgcolor = "red">
+                        <th>ID</th>
+                        <th>Vezeteknev</th>
+                        <th>Keresztnev</th>
+                        <th>Becenev</th>
+                        <th>Kor</th>
+                    </tr>
                     <xsl:for-each select="class/student">
-                        <tr bgcolor = "red">
-                            <th>ID</th>
-                            <th>Vezeteknev</th>
-                            <th>Keresztnev</th>
-                            <th>Becenev</th>
-                            <th>Kor</th>
-                        </tr>
-                        <tr>
+
+                        <tr bgcolor="">
                             <td>
                                 <xsl:value-of select = "@id"/>
                             </td>
-                            <td><xsl:value-of select = "keresznev"/></td>
                             <td><xsl:value-of select = "vezeteknev"/></td>
+                            <td><xsl:value-of select = "keresztnev"/></td>
                             <td><xsl:value-of select = "becenev"/></td>
                             <td><xsl:value-of select = "kor"/></td>
                         </tr>
