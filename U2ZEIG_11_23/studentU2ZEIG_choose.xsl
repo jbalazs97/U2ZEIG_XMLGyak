@@ -29,11 +29,14 @@
                             <td><xsl:value-of select = "kor"/></td>
                             <td><xsl:value-of select = "fizetes"/></td>
                             <xsl:choose>
-                                <xsl:when test="fizetes>130000">
+                                <xsl:when test="fizetes>200000" >
+                                    <td>Magas</td>
+                                </xsl:when>
+                                <xsl:when test="fizetes>150000" >
                                     <td>Kozepes</td>
                                 </xsl:when>
                                 <xsl:otherwise>
-                                        <td>Alacsony</td>
+                                    <td>Alacsony</td>
                                 </xsl:otherwise>
 
                             </xsl:choose>
